@@ -1,0 +1,41 @@
+[gd_scene load_steps=4 format=3 uid="uid://y4c8n3rrpofj"]
+
+[ext_resource type="PackedScene" uid="uid://v8v683b2mn5e" path="res://Scenes/Prefabs/station.tscn" id="1_7u47w"]
+[ext_resource type="PackedScene" uid="uid://dghdwtne0n73c" path="res://Scenes/Prefabs/table.tscn" id="2_23qos"]
+[ext_resource type="PackedScene" uid="uid://cxmo7c21g282k" path="res://Scenes/Prefabs/trash_can.tscn" id="3_tk7iv"]
+
+[node name="Kitchen" type="Node3D"]
+
+[node name="Station" parent="." instance=ExtResource("1_7u47w")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, 0)
+
+[node name="Station2" parent="." instance=ExtResource("1_7u47w")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, 1)
+
+[node name="Station3" parent="." instance=ExtResource("1_7u47w")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, 2)
+
+[node name="Table" parent="." instance=ExtResource("2_23qos")]
+
+[node name="Table2" parent="." instance=ExtResource("2_23qos")]
+
+[node name="Table3" parent="." instance=ExtResource("2_23qos")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0)
+
+[node name="Table4" parent="." instance=ExtResource("2_23qos")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 0)
+
+[node name="Table6" parent="." instance=ExtResource("2_23qos")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 0)
+
+[node name="Table7" parent="." instance=ExtResource("2_23qos")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0)
+
+[node name="Table5" parent="." instance=ExtResource("2_23qos")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1)
+
+[node name="Table8" parent="." instance=ExtResource("2_23qos")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2)
+
+[node name="TrashCan" parent="." instance=ExtResource("3_tk7iv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 0)
